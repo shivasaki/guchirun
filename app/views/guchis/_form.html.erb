@@ -1,0 +1,27 @@
+<%= form_for(guchi) do |f| %>
+  <% if guchi.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(guchi.errors.count, "error") %> prohibited this guchi from being saved:</h2>
+
+      <ul>
+      <% guchi.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :text %>
+    <%= f.text_field :text %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

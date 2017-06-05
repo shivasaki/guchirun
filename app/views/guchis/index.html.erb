@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Guchis</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Text</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @guchis.each do |guchi| %>
+      <tr>
+        <td><%= guchi.name %></td>
+        <td><%= guchi.text %></td>
+        <td><%= link_to 'Show', guchi %></td>
+        <td><%= link_to 'Edit', edit_guchi_path(guchi) %></td>
+        <td><%= link_to 'Destroy', guchi, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Guchi', new_guchi_path %>

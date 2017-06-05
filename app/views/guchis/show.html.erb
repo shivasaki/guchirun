@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @guchi.name %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @guchi.text %>
+</p>
+
+<%= link_to 'Edit', edit_guchi_path(@guchi) %> |
+<%= link_to 'Back', guchis_path %>

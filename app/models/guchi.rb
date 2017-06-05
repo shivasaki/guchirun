@@ -1,0 +1,2 @@
+class Guchi < ApplicationRecord
+end
