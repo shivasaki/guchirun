@@ -1,8 +1,8 @@
 class CreateGuchis < ActiveRecord::Migration[5.0]
   def change
     create_table :guchis do |t|
-      t.strings :name
-      t.strings :text
+      t.string :name
+      t.string :text
 
       t.timestamps
     end
