@@ -1,17 +1,11 @@
 body {
-  background-color: #fff;
-  color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  margin: 33px;
+ background:white;
 }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  margin: 33px;
 }
 
 pre {
@@ -45,7 +39,8 @@ td {
 
 div {
   &.field, &.actions {
-    margin-bottom: 10px;
+  margin-top:60px;
+
   }
 }
 
@@ -86,4 +81,8 @@ div {
 
 label {
   display: block;
+}
+.actions{
+  text-align:center; 
+  color:#29ABE2;
 }
