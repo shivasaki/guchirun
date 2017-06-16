@@ -28,7 +28,7 @@ class GuchisController < ApplicationController
 
     respond_to do |format|
       if @guchi.save
-        format.html { redirect_to @guchi, notice: 'Guchi was successfully created.' }
+        format.html { redirect_to "/guchis/index", notice: 'Guchi was successfully created.' }
         format.json { render :show, status: :created, location: @guchi }
       else
         format.html { render :new }

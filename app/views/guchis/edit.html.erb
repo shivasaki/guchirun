@@ -1,6 +1,13 @@
-<h1>Editing Guchi</h1>
+<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+<h1 style=" text-align:center; font-family: monospace; color:tomato;">Editing Guchi</h1>
+</div>
 
 <%= render 'form', guchi: @guchi %>
-
-<%= link_to 'Show', @guchi %> |
-<%= link_to 'Back', guchis_path %>
+<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align:center; margin-top:50px;" >
+    <div style="height:40px; width:90px; background:tomato; display:block; margin-left:auto; margin-right:auto;  line-height:40px; ">
+<%= link_to 'Show', @guchi, :style => "color:white;" %>
+</div>
+<div style="height:40px; width:90px; background:tomato; display:block; margin-left:auto; margin-right:auto;  line-height:40px;  float:right;">
+<%= link_to 'Back', guchis_path, :style => "color:white;" %>
+</div>
+</div>
