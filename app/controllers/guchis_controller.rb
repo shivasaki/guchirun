@@ -4,7 +4,7 @@ class GuchisController < ApplicationController
   # GET /guchis
   # GET /guchis.json
   def index
-    @guchis = Guchi.all
+    @guchis = Guchi.all.order(id: "DESC")
   end
 
   # GET /guchis/1
