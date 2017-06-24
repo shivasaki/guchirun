@@ -22,3 +22,7 @@
     line-height: 60px;
     font-family: monospace;
 }
+body {
+ background:white;
+ margin:auto;
+}
