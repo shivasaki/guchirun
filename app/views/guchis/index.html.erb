@@ -4,8 +4,8 @@
 
 <thead>
     <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12" >
-<h1 style=" text-align:center;  font-family: monospace; color:tomato;">Guchies </h1>
-<h5 style="text-align:center;"><div style="height:30px; width:80px; border-radius:100px; background:tomato; display:block; margin-left:auto; margin-right:auto; line-height:30px;"><%= link_to 'New Guchi', new_guchi_path,:style =>" color:white; text-align:center;" %></div></h5>
+<h1 style=" text-align:center;  font-family: monospace; color:#f4d30f;">Guchies </h1>
+<h5 style="text-align:center;"><div style="height:30px; width:80px; border-radius:100px; background:#f4d30f; display:block; margin-left:auto; margin-right:auto; line-height:30px;"><%= link_to 'New Guchi', new_guchi_path,:style =>" color: #111549; text-align:center;" %></div></h5>
 </div>
 <thead>
     <tr>
@@ -16,20 +16,21 @@
 
    <div  id="grid" style=" " >
     <ul style=" text-align:center; ">
-       <li style="width:257px; height:100px;">
-           <div  style="border:1px solid tomato;top:60px;">
-     TITLE: <%=truncate( guchi.name, :length => 10) %> <br>
+       <li style=" margin-top:20px; background:white;">
+           <div  style="top:60px;width:257px; height:80px; ">
+              
+     TITLE<br><%=truncate( guchi.name, :length => 10) %>
      <!--
         CONTENT:<%=  truncate(guchi.text, :length =>10) %>-->
        
-   <div style="color:white; height:30px; background:tomato;">
+   <div style="color:white; height:30px; background:#f4d30f; margin-top:10px;">
         <p style=" line-height:30px;">
     
-        <%= link_to 'Show', guchi,:style =>"float:left; margin-left:20px; color:white; " %>
+        <%= link_to 'Show', guchi,:style =>"float:left; margin-left:20px; color: #111549; " %>
     <!--
         <%= link_to 'Edit', edit_guchi_path(guchi),:style =>" margin-left:5px; color:white;"  %>-->
         
-        <%= link_to 'Destroy', guchi, method: :delete, data: { confirm: 'Are you sure?' },:style =>"float:right;  color:white; margin-right:20px; font-size:15px;" %>
+        <%= link_to 'Destroy', guchi, method: :delete, data: { confirm: 'Are you sure?' },:style =>"float:right;  color: #111549       ; margin-right:20px; font-size:15px;" %>
     </p>
     </div> 
     </div>

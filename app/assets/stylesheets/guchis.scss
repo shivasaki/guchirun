@@ -1,18 +1,23 @@
 // Place all the styles related to the guchis controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 #grid {
-	width:100%;
+	width:80%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 
 }
 li {
 
 	float: left;
-margin-left:5px;
+ border:1px solid  #111549;
 	list-style: none;
 }
 .show{
-	border:1px solid tomato;
+	border:1px solid ;
 	margin-top:100px;
 	text-align:center;
+	background:white;
 }
