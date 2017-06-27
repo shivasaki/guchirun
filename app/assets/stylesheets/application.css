@@ -15,14 +15,16 @@
  */
 .head{
     height: 70px;
-    background-color:#f4d30f;
+    background-color:tomato;
+    color:white;
     font-size: 50px;
     text-align: center;
     line-height: 60px;
     font-family:fantasy impact;
 }
 body {
+overflow-x: hidden;
 
-	background: #111549;
+	background:#f4edbd;
  margin:auto;
 }
