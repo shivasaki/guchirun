@@ -15,7 +15,7 @@
  */
 .head{
     height: 70px;
-    background-color:tomato;
+    background-color:#1e3156;
     color:white;
     font-size: 50px;
     text-align: center;
@@ -25,6 +25,7 @@
 body {
 overflow-x: hidden;
 
-	background:#f4edbd;
+	background:#ffdb29;
  margin:auto;
 }
+
