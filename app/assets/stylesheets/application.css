@@ -15,10 +15,17 @@
  */
 .head{
     height: 70px;
-    background-color:tomato;
+    background-color:#1e3156;
     color:white;
     font-size: 50px;
     text-align: center;
     line-height: 60px;
-    font-family: monospace;
+    font-family:fantasy impact;
 }
+body {
+overflow-x: hidden;
+
+	background:#ffdb29;
+ margin:auto;
+}
+
