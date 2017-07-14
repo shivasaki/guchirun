@@ -1,0 +1,129 @@
+/* line 5, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/guchis.scss */
+#grid {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 12, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/guchis.scss */
+li {
+  box-shadow: 1px 10px 1px 0px #ddb800;
+  float: left;
+  margin-left: 10px;
+  list-style: none;
+}
+
+/* line 19, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/guchis.scss */
+.show {
+  border: 1px solid;
+  margin-top: 100px;
+  text-align: center;
+  background: white;
+}
+/* line 4, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 10, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 13, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 17, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 24, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-top: 40px;
+}
+
+/* line 30, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 34, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 40, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 48, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 59, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 65, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+
+/* line 68, /Users/shivasaki/folder/RailsApp/guchirun/app/assets/stylesheets/scaffolds.scss */
+.actions {
+  text-align: center;
+  color: #29ABE2;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+.head{
+    height: 70px;
+    background-color:#1e3156;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    font-family:fantasy impact;
+}
+body {
+overflow-x: hidden;
+
+	background:#ffdb29;
+ margin:auto;
+}
+
