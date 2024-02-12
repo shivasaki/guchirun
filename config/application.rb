@@ -13,3 +13,11 @@ module Guchirun
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+require 'yaml'
+
+if Gem::Version.new(RUBY_VERSION) < Gem::Version.new('2.7.0') && defined?(Psych::Parser) && Psych::Parser.const_defined?('ALIASES')
+  Psych::Parser::ALIASES.each do |key, value|
+    Psych::Parser::ALIASES[key] = value.reject { |v| v == 'tag:yaml.org,2002:float' }
+  end
+end
